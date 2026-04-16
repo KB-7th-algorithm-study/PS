@@ -28,6 +28,8 @@ public class Main {
 
                 map[x][y]++;
             }
+
+            //위에까지 입력값 처리, 아래부터 필요한 벌레 수 계산
             sNum = 1;
             for(int j=0;j<M;j++){
                 for(int k=0;k<N;k++){
@@ -37,14 +39,7 @@ public class Main {
                     }
                 }
             }
-
-            int max = 0;
-            for(int j=0;j<M;j++){
-                for(int k=0;k<N;k++){
-                    if(map[j][k]>max) max = map[j][k];
-                }
-            }
-            System.out.println(max);
+            System.out.println(sNum-1);
         }
 
 
@@ -59,22 +54,18 @@ public class Main {
         map[i][j] = sNum;
 
         while(!queue.isEmpty()){
-            //?
             int[] now = queue.poll();
             int r = now[0];
             int c = now[1];
-            for(int d=0;d<4;d++){
-                int tempR = dr[d];
-                int tempC = dc[d];
-                while(r+tempR>=0&& r+tempR<M && c+tempC>=0&& c+tempC<N){
-                    //현재 방문한 적이 없고 바다가 아니면 같은 섬으로 취급하기
-                    if(visited[r+tempR][c+tempC] == false && map[r+tempR][c+tempC] !=0){
-                        addNode(r+tempR,c+tempC,queue);
-                    }else break;
-                    if(tempR<0)tempR--;
-                    else if(tempR>0)tempR++;
-                    else if(tempC<0)tempC--;
-                    else if(tempC>0)tempC++;
+            for(int d=0; d<4; d++){
+                int nr = r + dr[d];
+                int nc = c + dc[d];
+                //map 범위를 넘지 않게 범위 설정
+                if(nr >= 0 && nr < M && nc >= 0 && nc < N){
+                    //방문 안한 곳 && 배추가 심어진 곳 확인
+                    if(!visited[nr][nc] && map[nr][nc] != 0){
+                        addNode(nr, nc, queue);
+                    }
                 }
             }
         }
