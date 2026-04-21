@@ -1,4 +1,4 @@
-package PS.minji;
+package PS.minji.week2;
 
 import java.io.*;
 import java.util.StringTokenizer;
