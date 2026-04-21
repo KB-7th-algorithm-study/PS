@@ -1,4 +1,4 @@
-package PS.sejong;
+package PS.sejong.week2;
 import java.util.*;
 import java.io.*;
 

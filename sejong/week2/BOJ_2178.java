@@ -1,8 +1,8 @@
-package PS.sejong;
+package PS.sejong.week2;
 import java.util.*;
 import java.io.*;
 
-public class BOJ_9012 {
+public class BOJ_2178 {
     static int N;
     static int M;
     static int[][] miro;
