@@ -18,21 +18,19 @@ public class Main {
                 arr[i][j] = Integer.parseInt(strArr[j]);
             }
         }
-        
         Dp[0][0] = arr[0][0];
-
+        
         for(int i=1;i<n;i++){
             for(int j=0;j<n;j++){
                 if(j==0)
                     Dp[i][j] = Dp[i-1][j] + arr[i][j];
                 else if(j==i)
                     Dp[i][j] = Dp[i-1][j-1]+ arr[i][j];
-                else{
+                else
                     Dp[i][j] = arr[i][j] + Math.max(Dp[i-1][j],Dp[i-1][j-1]);
-                }
-
-            } 
+            }
         }
+
         int max = 0;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
