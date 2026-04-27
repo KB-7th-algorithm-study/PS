@@ -14,25 +14,5 @@ public class Main {
         }
 
         System.out.println(Dp[N]%10007);
-    }
-
-    // private static int calc(int on, int j, int col){
-    //     int n = 1;
-    //     int big = j>= col ? j:col;
-    //     int small = j < col ? j : col;
-
-    //     if(on==big)
-    //         return n;
-    //     else{
-    //         for(int i=on;i>big;i--){
-    //             n *= i;
-    //             if(n>=10007) n%=10007;
-    //         }
-    //         for(int i=2;i<=small;i++){
-    //             n /= i;
-    //         }
-    //     }
-
-    //     return n;
-    // }    
+    } 
 }
