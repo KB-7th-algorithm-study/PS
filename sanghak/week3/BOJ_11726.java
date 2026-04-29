@@ -1,5 +1,4 @@
-package PS.sanghak;
-import java.util.*;
+package PS.sanghak.week3;
 import java.lang.*;
 import java.io.*;
 
