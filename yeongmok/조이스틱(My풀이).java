@@ -4,14 +4,14 @@ class Solution {
     public static int solution(String name) {
         int answer = 0;
 
-        //알파벳 맞추기(아스키 코드로 계산)
+        //상하 움직임 계산(아스키 코드로 계산)
         for(int i=0;i<name.length();i++){ 
             int n = (int) name.charAt(i);
             if(n<=78) answer += n-65;
             else answer += 91-n;
         }
 
-        // 거리 계산
+        // 좌우 움직임 계산
         char[] charArr = name.toCharArray();
 
         // 0번 위치에서 시작해서 남은 문자들을 모두 처리하는 최소 이동거리
