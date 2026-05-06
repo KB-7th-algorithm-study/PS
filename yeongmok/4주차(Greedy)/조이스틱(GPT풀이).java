@@ -38,9 +38,6 @@ class Solution {
     }
     //원형일때 최소 거리 구하는 함수
     int getDistance(int cur, int next, int len){
-        int right = Math.abs(cur-next);
-        int left = len - right;
-        
-        return right<=left ? right : left;
+        return Math.min(Math.abs(cur-next),len-Math.abs(cur-next));
     }
 }
