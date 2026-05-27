@@ -20,7 +20,6 @@ class Solution {
             Long mid = (low+high)/2;
             Long p=0L;
 
-            
             for(int i=0;i<times.length;i++){
                 p+=mid/times[i];
             }
