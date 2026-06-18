@@ -7,6 +7,7 @@ int solution(int N, vector<vector<int> > road, int K) {
     int answer = 0;
     vector<vector<pair<int, int>>> graph(N + 1);
     // {누적 비용, 마을 번호} 형태로 넣을 때 비용이 작은 것부터 정렬되도록
+    // priority_queue< [자료형], [구현체], [비교연산자] >
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
     // 최단거리
     vector<int> dist(N + 1, INF);
@@ -32,7 +33,7 @@ int solution(int N, vector<vector<int> > road, int K) {
         if (dist[cur] < curCost) continue;
         
         // 현재 마을이랑 연결된 다른 이웃 마을 확인
-        for (const auto& neighbor : graph[cur]) {
+        for (pair<int, int>  neighbor : graph[cur]) {
             int next = neighbor.first;
             int nextCost = curCost + neighbor.second;
             
