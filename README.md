@@ -38,9 +38,9 @@ git commit -m "[LeetCode] Hi"
   
 # 🤝 PR 및 머지 규칙
 
-- PR 제목 : [n주차] 이름 - 문제이름
+- PR 제목 : [n주차] 이름
   ```
- 	[13주차] 락쿠마 - Hello, Hi
+ 	[13주차] 락쿠마
   ```
 - 머지 방식은 `Squash and merge`로 해주세요
 - 코드 리뷰는 환영입니다
