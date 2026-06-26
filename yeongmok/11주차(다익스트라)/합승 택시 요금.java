@@ -60,7 +60,7 @@ class Solution {
 			} 
         }
         
-        //3중 for문으로 A+B+해당위치 가는 비용의 합 중 최솟값 구하기
+        //!
         int min = Integer.MAX_VALUE;
         int q = 0;
         for(int k=1;k<=n;k++){
@@ -85,40 +85,21 @@ class Solution {
 
                 visited[nodeIdx] = true;
 
+                // 4 - 2. 해당 지점을 기준으로 인접 노드의 최소 거리 값을 갱신한다.
                 for (int j = 0; j < graph.get(nodeIdx).size(); j++) {
+                    // 인접 노드를 선택한다.
                     Node adjNode = graph.get(nodeIdx).get(j);
-    
+                    // 인접 노드가 현재 가지는 최소 비용과
+                    // 현재 선택된 노드의 값 + 현재 노드에서 인접 노드로 가는 값을 비교하여 더 작은 값으로 갱신한다.
                     if (dist2[adjNode.idx] > dist2[nodeIdx] + adjNode.value) {
                         dist2[adjNode.idx] = dist2[nodeIdx] + adjNode.value;
                     }
                 } 
             }
-
-            for(int i=0;i<=n;i++){
-                int nodeIdx = 0;
-                int nodeValue = Integer.MAX_VALUE;
-
-                for(int j=1;j<=n;j++){
-                    if(!visited[j] && nodeValue>dist2[j]){
-                        nodeIdx = j;
-                        nodeValue = dist2[j];
-                    }
-                }
-
-                visited[nodeIdx] = true;
-
-                for (int j = 0; j < graph.get(nodeIdx).size(); j++) {
-                    Node adjNode = graph.get(nodeIdx).get(j);
-                    
-                    if (dist2[adjNode.idx] > dist2[nodeIdx] + adjNode.value) {
-                        dist2[adjNode.idx] = dist2[nodeIdx] + adjNode.value;
-                    }
-                }
-                min = dist[k]+dist2[a]+dist2[b] > min ? min : dist[k]+dist2[a]+dist2[b];
+min = dist[k]+dist2[a]+dist2[b] > min ? min : dist[k]+dist2[a]+dist2[b];
                 if(min==dist2[a]+dist2[b]+dist[k]){
                     q=k;
                 }
-            }
         }
         
         return min;
