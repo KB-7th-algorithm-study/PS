@@ -12,10 +12,10 @@
 |sejong<br/>[@jongse7](https://github.com/jongse7)|sungeun<br/>[@ggumdols](https://github.com/ggumdols)|sohyun<br/>[@ssohy](https://github.com/ssohy)|yeongmok<br/>[@Kimyeongmok](https://github.com/Kimyeongmok)|
 |`Java`|`Python`|`C++`|`Java`|
 
-|<img src="https://avatars.githubusercontent.com/u/262952598?v=4" width="150" height="150"/>|
-|:-:|
-|yeongjin<br/>[@itleo29](https://github.com/itleo29)|
-|`Java`|
+|<img src="https://avatars.githubusercontent.com/u/262952598?v=4" width="150" height="150"/>|<img src="https://placehold.co/150x150/e9ecef/e9ecef" width="150" height="150"/>|<img src="https://placehold.co/150x150/e9ecef/e9ecef" width="150" height="150"/>|<img src="https://placehold.co/150x150/e9ecef/e9ecef" width="150" height="150"/>|
+|:-:|:-:|:-:|:-:|
+|yeongjin<br/>[@itleo29](https://github.com/itleo29)| | | |
+|`Java`| | | |
   <br/>
 
 # 📊 진행률 
