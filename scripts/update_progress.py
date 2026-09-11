@@ -20,6 +20,7 @@ FILENAME_RE = re.compile(r"^\[(?P<platform>[A-Za-z]+)\]\s+(?P<number>[A-Za-z0-9]
 
 EXCLUDE_DIRS = {".git", ".github", "scripts"}
 BAR_WIDTH = 20
+CODE_EXTENSIONS = {"java", "py", "cpp", "c", "js", "kt"}
 
 
 def load_problems_yml():
@@ -65,28 +66,38 @@ def render_bar(pct):
     return "█" * filled + "░" * (BAR_WIDTH - filled)
 
 
+def count_total_files(member_dir):
+    """이름 규칙과 무관하게, 지금까지 올린 코드 파일 총 개수를 센다."""
+    count = 0
+    for f in member_dir.rglob("*"):
+        if f.is_file() and f.suffix.lstrip(".").lower() in CODE_EXTENSIONS:
+            count += 1
+    return count
+
+
 def build_section(valid_keys, inactive_members):
     total = len(valid_keys)
     active_rows = []
-    inactive_names = []
+    inactive_rows = []
     for member_dir in find_member_dirs():
         name = member_dir.name
+        total_count = count_total_files(member_dir)
         if name in inactive_members:
-            inactive_names.append(name)
+            inactive_rows.append((name, total_count))
             continue
         solved = scan_member(member_dir, valid_keys)
         pct = round(len(solved) / total * 100) if total else 0
-        active_rows.append((name, len(solved), pct))
+        active_rows.append((name, len(solved), pct, total_count))
 
     active_rows.sort(key=lambda r: -r[2])
 
     lines = [START_MARKER, ""]
-    lines.append("| 이름 | 진행률 | 완료 |")
-    lines.append("|:--|:--|:--:|")
-    for name, solved, pct in active_rows:
-        lines.append(f"| {name} | `{render_bar(pct)}` {pct}% | {solved}/{total} |")
-    for name in inactive_names:
-        lines.append(f"| {name} | 🛌 참여 안 함 | - |")
+    lines.append("| 이름 | 진행률 | 완료 | 누적 풀이 |")
+    lines.append("|:--|:--|:--:|:--:|")
+    for name, solved, pct, total_count in active_rows:
+        lines.append(f"| {name} | `{render_bar(pct)}` {pct}% | {solved}/{total} | {total_count}개 |")
+    for name, total_count in inactive_rows:
+        lines.append(f"| {name} | 🛌 참여 안 함 | - | {total_count}개 |")
     lines.append("")
     lines.append(END_MARKER)
     return "\n".join(lines)
