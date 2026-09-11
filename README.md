@@ -12,7 +12,29 @@
 |sejong<br/>[@jongse7](https://github.com/jongse7)|sungeun<br/>[@ggumdols](https://github.com/ggumdols)|sohyun<br/>[@ssohy](https://github.com/ssohy)|yeongmok<br/>[@Kimyeongmok](https://github.com/Kimyeongmok)|
 |`Java`|`Python`|`C++`|`Java`|
   <br/>
-  
+
+# 📊 진행률
+
+<!-- PROGRESS:START -->
+
+| 이름 | 진행률 | 완료 |
+|:--|:--|:--:|
+| hayan | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/2 |
+| minji | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/2 |
+| sanghak | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/2 |
+| sejong | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/2 |
+| seungeun | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/2 |
+| sohyun | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/2 |
+| yeongjin | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/2 |
+| yeongmok | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/2 |
+| gyuri | 🛌 참여 안 함 | - |
+
+<!-- PROGRESS:END -->
+
+- 진행률은 `problems.yml`에 등록된 문제와 각자 폴더에 올라온 파일을 비교해서 GitHub Actions가 자동으로 계산합니다.
+- 파일명 규칙: `[플랫폼] 문제번호.확장자` (예: `[BOJ] 1929.java`) — 본인 폴더 안 하위 구조는 자유입니다.
+  <br/>
+
 # 🚀 참여 방법
 
 1. 본인 이름의 `브랜치`와 `폴더`를 생성해주세요.
