@@ -26,3 +26,6 @@ weeks:
       - platform: PGS
         number: "42627"
         title: 디스크 컨트롤러
+      - platform: PGS
+        number: "468371"
+        title: 노란불 신호등
