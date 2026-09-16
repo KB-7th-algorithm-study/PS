@@ -1,0 +1,31 @@
+# 주차별 문제 목록
+#
+# 파일명 규칙과 매칭되는 값이므로 platform / number는 정확히 일치해야 합니다.
+#   - platform: PGS(프로그래머스) / LTC(리트코드) / BOJ(백준) / SEA(삼성SW Expert Academy) / ETC(그외)
+#   - number  : 문제 번호 (프로그래머스/리트코드도 이름 대신 번호 사용)
+#
+# 파일명 규칙: [{platform}] {number}.{확장자}   예) [BOJ] 1929.java
+# 각자 폴더 안의 하위 구조(폴더 나누는 방식)는 자유입니다.
+# 파일명에 이름/주차를 따로 적을 필요 없음 — 폴더 전체를 재귀적으로 뒤져서 파일명만 확인합니다.
+#
+# 새 주차가 생기면 이 파일 맨 아래에 week 블록을 하나 추가하면 됩니다.
+# (week/assignedBy는 기록용이며 매칭 로직에는 platform+number만 사용됩니다)
+#
+# 지금 스터디에 참여하지 않는 사람은 아래 inactiveMembers에 이름(폴더명)을 추가하면
+# 진행률 표에서 퍼센트 대신 "참여 안 함"으로 표시되고 계산에서도 제외됩니다.
+inactiveMembers:
+  - gyuri
+
+weeks:
+  - week: 16
+    assignedBy: sanghak
+    problems:
+      - platform: PGS
+        number: "148653"
+        title: 마법의 엘리베이터
+      - platform: PGS
+        number: "42627"
+        title: 디스크 컨트롤러
+      - platform: PGS
+        number: "468371"
+        title: 노란불 신호등
