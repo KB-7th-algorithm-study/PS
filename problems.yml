@@ -9,7 +9,7 @@
 # 파일명에 이름/주차를 따로 적을 필요 없음 — 폴더 전체를 재귀적으로 뒤져서 파일명만 확인합니다.
 #
 # 새 주차가 생기면 이 파일 맨 아래에 week 블록을 하나 추가하면 됩니다.
-# (week/assignedBy는 기록용이며 매칭 로직에는 platform+number만 사용됩니다)
+# (assignedBy는 문제별 기록용이며 매칭 로직에는 platform+number만 사용됩니다)
 #
 # 지금 스터디에 참여하지 않는 사람은 아래 inactiveMembers에 이름(폴더명)을 추가하면
 # 진행률 표에서 퍼센트 대신 "참여 안 함"으로 표시되고 계산에서도 제외됩니다.
@@ -18,14 +18,30 @@ inactiveMembers:
 
 weeks:
   - week: 16
-    assignedBy: sanghak
     problems:
       - platform: PGS
         number: "148653"
         title: 마법의 엘리베이터
+        assignedBy: sanghak
       - platform: PGS
         number: "42627"
         title: 디스크 컨트롤러
+        assignedBy: sanghak
       - platform: PGS
         number: "468371"
         title: 노란불 신호등
+        assignedBy: sanghak
+  - week: 17
+    problems:
+      - platform: PGS
+        number: "176962"
+        title: 과제 진행하기
+        assignedBy: yeongmok
+      - platform: PGS
+        number: "92342"
+        title: 양궁대회
+        assignedBy: sejong
+      - platform: PGS
+        number: "131127"
+        title: 할인 행사
+        assignedBy: minju
