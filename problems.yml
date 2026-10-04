@@ -45,3 +45,13 @@ weeks:
         number: "131127"
         title: 할인 행사
         assignedBy: minju
+  - week: 18
+    problems:
+      - platform: PGS
+        number: "389480"
+        title: 완전범죄
+        assignedBy: yeongjin
+      - platform: PGS
+        number: "150368"
+        title: 이모티콘 할인행사
+        assignedBy: sohyun
