@@ -55,3 +55,17 @@ weeks:
         number: "150368"
         title: 이모티콘 할인행사
         assignedBy: sohyun
+  - week: 19
+    problems:
+      - platform: PGS
+        number: "468373"
+        title: 바이러스 파이프
+        assignedBy: sanghak
+      - platform: PGS
+        number: "42890"
+        title: 후보키
+        assignedBy: hayan
+      - platform: PGS
+        number: "42840"
+        title: 모의고사
+        assignedBy: minji
