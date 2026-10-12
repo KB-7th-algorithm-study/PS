@@ -69,3 +69,17 @@ weeks:
         number: "42840"
         title: 모의고사
         assignedBy: minji
+  - week: 20
+    problems:
+      - platform: PGS
+        number: "42888"
+        title: 오픈채팅방
+        assignedBy: sejong
+      - platform: PGS
+        number: "160585"
+        title: 혼자서 하는 틱택토
+        assignedBy: yeongmok
+      - platform: PGS
+        number: "155651"
+        title: 호텔 대실
+        assignedBy: minju
