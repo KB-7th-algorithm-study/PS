@@ -20,52 +20,66 @@ weeks:
   - week: 16
     problems:
       - platform: PGS
-        number: "148653"
+        number: '148653'
         title: 마법의 엘리베이터
         assignedBy: sanghak
       - platform: PGS
-        number: "42627"
+        number: '42627'
         title: 디스크 컨트롤러
         assignedBy: sanghak
       - platform: PGS
-        number: "468371"
+        number: '468371'
         title: 노란불 신호등
         assignedBy: sanghak
   - week: 17
     problems:
       - platform: PGS
-        number: "176962"
+        number: '176962'
         title: 과제 진행하기
         assignedBy: yeongmok
       - platform: PGS
-        number: "92342"
+        number: '92342'
         title: 양궁대회
         assignedBy: sejong
       - platform: PGS
-        number: "131127"
+        number: '131127'
         title: 할인 행사
         assignedBy: minju
   - week: 18
     problems:
       - platform: PGS
-        number: "389480"
+        number: '389480'
         title: 완전범죄
         assignedBy: yeongjin
       - platform: PGS
-        number: "150368"
+        number: '150368'
         title: 이모티콘 할인행사
         assignedBy: sohyun
   - week: 19
     problems:
       - platform: PGS
-        number: "468373"
+        number: '468373'
         title: 바이러스 파이프
         assignedBy: sanghak
       - platform: PGS
-        number: "42890"
+        number: '42890'
         title: 후보키
         assignedBy: hayan
       - platform: PGS
-        number: "42840"
+        number: '42840'
         title: 모의고사
         assignedBy: minji
+  - week: 20
+    problems:
+      - platform: PGS
+        number: '42888'
+        title: 오픈채팅방
+        assignedBy: sejong
+      - platform: PGS
+        number: '160585'
+        title: 혼자서 하는 틱택토
+        assignedBy: yeongmok
+      - platform: PGS
+        number: '155651'
+        title: 호텔 대실
+        assignedBy: minju
