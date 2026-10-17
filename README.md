@@ -9,13 +9,13 @@
 
 |<img src="https://avatars.githubusercontent.com/u/78732904?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/170310972?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/109409651?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/103742065?v=4" width="150" height="150"/>|
 |:-:|:-:|:-:|:-:|
-|sejong<br/>[@jongse7](https://github.com/jongse7)|sungeun<br/>[@ggumdols](https://github.com/ggumdols)|sohyun<br/>[@ssohy](https://github.com/ssohy)|yeongmok<br/>[@Kimyeongmok](https://github.com/Kimyeongmok)|
+|sejong<br/>[@jongse7](https://github.com/jongse7)|seungeun<br/>[@ggumdols](https://github.com/ggumdols)|sohyun<br/>[@ssohy](https://github.com/ssohy)|yeongmok<br/>[@Kimyeongmok](https://github.com/Kimyeongmok)|
 |`Java`|`Python`|`C++`|`Java`|
 
-|<img src="https://avatars.githubusercontent.com/u/262952598?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/88306633?v=4" width="150" height="150"/>|<img src="https://placehold.co/150x150/e9ecef/e9ecef" width="150" height="150"/>|<img src="https://placehold.co/150x150/e9ecef/e9ecef" width="150" height="150"/>|
+|<img src="https://avatars.githubusercontent.com/u/262952598?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/88306633?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/49023732?v=4" width="150" height="150"/>|<img src="https://placehold.co/150x150/e9ecef/e9ecef" width="150" height="150"/>|
 |:-:|:-:|:-:|:-:|
-|yeongjin<br/>[@itleo29](https://github.com/itleo29)|minju<br/>[@tmj5574](https://github.com/tmj5574)| | |
-|`Java`|`Java`| | |
+|yeongjin<br/>[@itleo29](https://github.com/itleo29)|minju<br/>[@tmj5574](https://github.com/tmj5574)|tuchong<br/>[@tuchongkim](https://github.com/tuchongkim) | |
+|`Java`|`Java`|`Java`| |
   <br/>
 
 # 📊 진행률 
