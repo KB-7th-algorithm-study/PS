@@ -9,13 +9,13 @@
 
 |<img src="https://avatars.githubusercontent.com/u/78732904?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/170310972?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/109409651?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/103742065?v=4" width="150" height="150"/>|
 |:-:|:-:|:-:|:-:|
-|sejong<br/>[@jongse7](https://github.com/jongse7)|sungeun<br/>[@ggumdols](https://github.com/ggumdols)|sohyun<br/>[@ssohy](https://github.com/ssohy)|yeongmok<br/>[@Kimyeongmok](https://github.com/Kimyeongmok)|
+|sejong<br/>[@jongse7](https://github.com/jongse7)|seungeun<br/>[@ggumdols](https://github.com/ggumdols)|sohyun<br/>[@ssohy](https://github.com/ssohy)|yeongmok<br/>[@Kimyeongmok](https://github.com/Kimyeongmok)|
 |`Java`|`Python`|`C++`|`Java`|
 
-|<img src="https://avatars.githubusercontent.com/u/262952598?v=4" width="150" height="150"/>|<img src="https://placehold.co/150x150/e9ecef/e9ecef" width="150" height="150"/>|<img src="https://placehold.co/150x150/e9ecef/e9ecef" width="150" height="150"/>|<img src="https://placehold.co/150x150/e9ecef/e9ecef" width="150" height="150"/>|
+|<img src="https://avatars.githubusercontent.com/u/262952598?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/88306633?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/49023732?v=4" width="150" height="150"/>|<img src="https://placehold.co/150x150/e9ecef/e9ecef" width="150" height="150"/>|
 |:-:|:-:|:-:|:-:|
-|yeongjin<br/>[@itleo29](https://github.com/itleo29)| | | |
-|`Java`| | | |
+|yeongjin<br/>[@itleo29](https://github.com/itleo29)|minju<br/>[@tmj5574](https://github.com/tmj5574)|tuchong<br/>[@tuchongkim](https://github.com/tuchongkim) | |
+|`Java`|`Java`|`Java`| |
   <br/>
 
 # 📊 진행률 
@@ -24,15 +24,16 @@
 
 | 이름 | 진행률 | 완료 | 누적 풀이 |
 |:--|:--|:--:|:--:|
-| sohyun | `███████░░░░░░░░░░░░░` 33% | 1/3 | 30개 |
-| yeongjin | `███████░░░░░░░░░░░░░` 33% | 1/3 | 4개 |
-| hayan | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/3 | 25개 |
-| minji | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/3 | 16개 |
-| minju | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/3 | 1개 |
-| sanghak | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/3 | 11개 |
-| sejong | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/3 | 21개 |
-| seungeun | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/3 | 17개 |
-| yeongmok | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/3 | 25개 |
+| sohyun | `██████████░░░░░░░░░░` 50% | 7/14 | 36개 |
+| minju | `███████░░░░░░░░░░░░░` 36% | 5/14 | 5개 |
+| yeongjin | `██████░░░░░░░░░░░░░░` 29% | 4/14 | 7개 |
+| tuchong | `████░░░░░░░░░░░░░░░░` 21% | 3/14 | 3개 |
+| hayan | `███░░░░░░░░░░░░░░░░░` 14% | 2/14 | 27개 |
+| sanghak | `█░░░░░░░░░░░░░░░░░░░` 7% | 1/14 | 12개 |
+| yeongmok | `█░░░░░░░░░░░░░░░░░░░` 7% | 1/14 | 26개 |
+| minji | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/14 | 16개 |
+| sejong | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/14 | 21개 |
+| seungeun | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/14 | 17개 |
 | gyuri | 🛌 참여 안 함 | - | 16개 |
 
 <!-- PROGRESS:END -->
