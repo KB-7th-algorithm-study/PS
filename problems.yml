@@ -15,6 +15,7 @@
 # 진행률 표에서 퍼센트 대신 "참여 안 함"으로 표시되고 계산에서도 제외됩니다.
 inactiveMembers:
   - gyuri
+  - seungeun
 
 weeks:
   - week: 16
@@ -83,3 +84,17 @@ weeks:
         number: "155651"
         title: 호텔 대실
         assignedBy: minju
+  - week: 21
+    problems:
+      - platform: PGS
+        number: "169199"
+        title: 리코쳇 로봇
+        assignedBy: tuchong
+      - platform: PGS
+        number: "144854"
+        title: 조건에 맞는 도서와 저자 리스트 출력하기
+        assignedBy: sohyun
+      - platform: PGS
+        number: "340212"
+        title: "[PCCP 기출문제] 2번 / 퍼즐 게임 챌린지"
+        assignedBy: yeongjin
