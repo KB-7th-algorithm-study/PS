@@ -20,7 +20,7 @@ FILENAME_RE = re.compile(r"^\[(?P<platform>[A-Za-z]+)\]\s+(?P<number>[A-Za-z0-9]
 
 EXCLUDE_DIRS = {".git", ".github", "scripts"}
 BAR_WIDTH = 20
-CODE_EXTENSIONS = {"java", "py", "cpp", "c", "js", "kt"}
+CODE_EXTENSIONS = {"java", "py", "cpp", "c", "js", "kt", "sql"}
 
 
 def load_problems_yml():
