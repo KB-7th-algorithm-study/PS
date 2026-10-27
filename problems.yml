@@ -98,3 +98,17 @@ weeks:
         number: "340212"
         title: "[PCCP 기출문제] 2번 / 퍼즐 게임 챌린지"
         assignedBy: yeongjin
+  - week: 22
+    problems:
+      - platform: PGS
+        number: "92341"
+        title: 주차 요금 계산
+        assignedBy: minji
+      - platform: PGS
+        number: "131704"
+        title: 택배상자
+        assignedBy: minju
+      - platform: PGS
+        number: "121690"
+        title: "[PCCP 모의고사 2] 4번"
+        assignedBy: hayan
