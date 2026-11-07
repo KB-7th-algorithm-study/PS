@@ -112,3 +112,17 @@ weeks:
         number: "121690"
         title: "[PCCP 모의고사 2] 4번"
         assignedBy: hayan
+  - week: 23
+    problems:
+      - platform: PGS
+        number: "67257"
+        title: "수식 최대화"
+        assignedBy: yeongmok
+      - platform: PGS
+        number: "150369"
+        title: "택배 배달과 수거하기"
+        assignedBy: yeongjin
+      - platform: PGS
+        number: "92342"
+        title: "양궁대회"
+        assignedBy: sejong
