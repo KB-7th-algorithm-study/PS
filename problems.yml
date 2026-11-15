@@ -126,3 +126,17 @@ weeks:
         number: "92342"
         title: "양궁대회"
         assignedBy: sejong
+  - week: 24
+    problems:
+      - platform: SEA
+        number: "1873"
+        title: 상호의 배틀필드
+        assignedBy: sohyun
+      - platform: PGS
+        number: "42895"
+        title: N으로 표현
+        assignedBy: tuchong
+      - platform: PGS
+        number: "81302"
+        title: 거리두기 확인하기
+        assignedBy: minji
