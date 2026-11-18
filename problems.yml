@@ -140,3 +140,17 @@ weeks:
         number: "81302"
         title: 거리두기 확인하기
         assignedBy: minji
+  - week: 25
+    problems:
+      - platform: SEA
+        number: "2805"
+        title: 농작물 수확하기
+        assignedBy: hayan
+      - platform: PGS
+        number: "468379"
+        title: 선인장 숨기기
+        assignedBy: sejong
+      - platform: PGS
+        number: "284529"
+        title: 부서별 평균 연봉 조회하기
+        assignedBy: minju
