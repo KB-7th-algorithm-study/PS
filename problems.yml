@@ -154,3 +154,17 @@ weeks:
         number: "284529"
         title: 부서별 평균 연봉 조회하기
         assignedBy: minju
+  - week: 26
+    problems:
+      - platform: PGS
+        number: "138476"
+        title: 귤 고르기
+        assignedBy: yeongmok
+      - platform: PGS
+        number: "12913"
+        title: 땅따먹기
+        assignedBy: yeongjin
+      - platform: BOJ
+        number: "2805"
+        title: 나무 자르기
+        assignedBy: sohyun
